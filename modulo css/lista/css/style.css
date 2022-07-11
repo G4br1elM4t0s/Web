@@ -1,0 +1,42 @@
+html,body{
+    height: 100%;
+}
+
+
+.lista{
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+
+
+.box{
+    width: 500px;
+    height: 500px;
+    background: purple;
+    display: flex;
+    align-items: center;
+}
+.box1{
+    margin-bottom: 100px;
+    margin-left: 100px;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    text-align: center;
+}
+
+.box2{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+}
+
+.lista li{
+    color: yellow;
+    font-size: 14px;
+    margin-top: 10px;
+}
