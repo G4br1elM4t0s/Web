@@ -19,10 +19,13 @@ html, body{
 
 .artigo{
     box-sizing: border-box;
+    border-style: dotted;
+    border-width:3px ;
+    border-color: red;
     vertical-align: top;
     display: inline-block;
     width: 355px;
     margin: 10px 10px;
     margin-right: -4px;
-    border: 2px solid red;
+    
 }

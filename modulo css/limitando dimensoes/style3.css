@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.pai{
+    width: 600px;
+    padding: 20px 0;
+    margin: 0 auto;
+    background: blue;
+}
+
+.filho{
+    box-sizing: border-box;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 0;
+    float: right;
+    background: red ;
+    border:1px solid black;
+}
