@@ -13,12 +13,16 @@ html, body{
     box-sizing:content-box;
     width: 750px;
     margin: 0 auto;
-    padding: 30px auto;
     background-color: blue;
 }
 
 
 .artigo{
-    width: 100%;
-    margin-bottom: 50px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    width: 355px;
+    margin: 10px 10px;
+    margin-right: -4px;
+    border: 2px solid red;
 }
