@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.box{
+    width: 300px;
+    margin: 0 auto;
+    background: gray;
+    /* por padrão a altura é altomatico ou seja quanto mais texto tiver 
+    mais a box se estiva */ 
+    height: 100px;
+    overflow-x: auto;
+    /* curiosidade sobre o overflow quando não iniciamos um valor de um dos eixos
+    por padrão ele vem automatico também */
+}
+
+.box p{
+    width: 500px;
+}
