@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+
+.box{
+    background: gray;
+    width: 300px;
+    height: 300px;
+}
+
+.box2{
+    background: red;
+}
+
+.box > .box2 > span{
+    display: inline-block;
+    background: red;
+    width: inherit;
+    height: inherit;
+
+    /*O valor iherit significa que o estilo herdara sempre do elemento do pai*/
+}
