@@ -7,18 +7,27 @@ html, body{
     height: 100%;
 }
 
-.box{
+.box, .box2{
     width: 300px;
     margin: 0 auto;
     background: gray;
     /* por padrão a altura é altomatico ou seja quanto mais texto tiver 
     mais a box se estiva */ 
-    height: 100px;
-    overflow-x: auto;
+    
+
+    /*overflow-x: auto;
+    overflow-y:hidden ;
+    */ 
     /* curiosidade sobre o overflow quando não iniciamos um valor de um dos eixos
     por padrão ele vem automatico também */
 }
 
-.box p{
-    width: 500px;
+.box p,.box2 p{
+    width: 100%;
+}
+
+.box2{
+    background-color: red;
+    margin-top: 20px;
+    display: block;
 }
