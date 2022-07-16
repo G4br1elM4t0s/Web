@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 html, body{
     height: 100%;
@@ -14,7 +15,13 @@ html, body{
 
 }
 
-.box > .box2 > span{
+.box p{
+    
+    color: initial;
+    background-color: initial;
+}
+
+/* .box > .box2 > span{
     display: inline-block;
     /* background: red;
     width: inherit;
@@ -22,11 +29,11 @@ html, body{
 
 
 
-    /*O valor inherit significa que o estilo herdara sempre do elemento do pai*/
-}
+    /*O valor inherit significa que o estilo herdara sempre do elemento do pai
+} 
 
 @media screen and (max-width:700px){
     .box{
         height: auto;
     }
-}
+} */
