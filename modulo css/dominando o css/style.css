@@ -9,19 +9,24 @@ html, body{
 
 .box{
     background: gray;
-    width: 300px;
+    width: 40%;
     height: 300px;
-}
 
-.box2{
-    background: red;
 }
 
 .box > .box2 > span{
     display: inline-block;
-    background: red;
+    /* background: red;
     width: inherit;
-    height: inherit;
+    height: inherit; */
 
-    /*O valor iherit significa que o estilo herdara sempre do elemento do pai*/
+
+
+    /*O valor inherit significa que o estilo herdara sempre do elemento do pai*/
+}
+
+@media screen and (max-width:700px){
+    .box{
+        height: auto;
+    }
 }
