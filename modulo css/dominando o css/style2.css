@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.box{
+    display: inline-block;
+    align-items: center;
+    background: black;
+    width: 100%;
+    margin: 0; 
+    display: flexbox;
+    text-align: center;
+}
+
+a[href]{
+    background-color: red;
+}
