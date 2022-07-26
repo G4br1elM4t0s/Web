@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+
+    /* Background */
+
+
+    background-color: red;
+    background-image: url(../images/background-image.jpg);
+    background-size: cover /*boa pratica não utilizar porcentagem e sim sempre utilizar px ou "center, right, left(...)"*/;
+    background-repeat: no-repeat /*no-repeat, repeat-x, repeat-y*/;
+    background-position: center;
+}
+
+
+
+
+.box{
+    display: box;
+    
+    text-align: center;
+    
+}
+
+
+.bglogo{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    
+
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: gray;
+   
+}
+
+
+
+.navbar a{
+
+    margin-left: 30px;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
