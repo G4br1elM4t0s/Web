@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 120px;
+    background-color:  #A1CEF8;
+}
+
+footer{
+    height: 120px;
+    background-color: #1A396B;
+}
+
+section h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px; 
+    text-align: center;
+    color: #1A396B;
+}
+/* font-family: 'Roboto', sans-serif; */
+
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  padding: 10px 0;  
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center{
+    display: flex;
+}
+
+.header-navbar ul{
+    height: 100%;
+}
+
+.header-navbar ul li{
+    margin: 0 10px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.header-navbar ul li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color:  #1A396B;
+    font-size: 16px;
+}
+
+
+.background{
+    height: 634.4px;
+}
+
+.cursos-wrap{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cursos-card{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cursos-card img{
+    margin-top:150px;
+    border-radius: 5%;
+
+}
+
+.cursos-card h3{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px; 
+    text-align: center;
+    color:  #FF5551;
+}
+
+.cursos-card h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px; 
+    text-align: center;
+    color:  #1A396B;
+}
+
+.container1{
+    
+    padding: 10px;
+    width: 1170px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container2{
+    padding: 10px;
+    width: 1170px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    padding: 5px;
+    
+    width: 30%;
+    height: 350px;
+    border-radius: 15px;
+}
+.box2{
+    padding: 5px;
+    background-color: #FF5551;
+    width: 30%;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.cursos-image{
+    background-size: 115%;
+	background-position: center;
+}
+
+.a{
+    padding: 0 120px;
+    color: #FF5551;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+/* #curso-01{
+    background-image: url(../images/Rectangle.png) ;
+    border-image: 15px;
+} */
+
+
+
